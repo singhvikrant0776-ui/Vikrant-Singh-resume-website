@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikrant Singh — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION BAR — position: fixed, display: flex
+  ═══════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-vs">VS</span><span class="brand-dot">.</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-cta">Connect</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HERO SECTION — full viewport, flexbox
+  ═══════════════════════════════════════════════════════ -->
+  <header id="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+
+    <div class="hero-content">
+
+      <!-- Profile picture circle -->
+      <div class="profile-wrap">
+        <div class="profile-ring"></div>
+        <div class="profile-circle" id="profileCircle">
+          <img src="photo.jpg" alt="Vikrant Singh" />
+        </div>
+        <div class="profile-status">
+          <span class="status-dot"></span> Open to Opportunities
+        </div>
+      </div>
+
+      <!-- Identity -->
+      <div class="hero-identity">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          BBA DBE · IIM Bangalore &nbsp;|&nbsp; BBA Honours · BITS Pilani Dubai
+        </div>
+        <h1 class="hero-name">Vikrant<br /><em>Singh</em></h1>
+        <p class="hero-tagline">
+          Business · AI &amp; Finance · Entrepreneurship · New-Age Technology
+        </p>
+
+        <!-- Keyword badges -->
+        <div class="keyword-badges">
+          <span class="kbadge">🔥 Open for Opportunities</span>
+          <span class="kbadge">📖 Keen Learner</span>
+          <span class="kbadge">🧠 Always Curious</span>
+          <span class="kbadge">🚀 Future Entrepreneur</span>
+          <span class="kbadge">🏅 National Athlete</span>
+          <span class="kbadge">🌐 Zonal Representative</span>
+        </div>
+
+        <p class="hero-bio">
+          A first-year dual-degree student at <strong>IIM Bangalore</strong> and
+          <strong>BITS Pilani, Dubai Campus</strong> — elected <strong>Zonal
+          Representative of Eastern India</strong> at IIM Bangalore. National-level
+          competitive shooter, MUN participant, and passionate explorer of
+          AI, finance, and entrepreneurship.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#achievements" class="btn btn-primary">My Achievements</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+
+        <div class="hero-info-row">
+          <span>📍 Dubai, UAE &nbsp;·&nbsp; From Guwahati, Assam</span>
+          <span>🎓 BITS Pilani Dubai &amp; IIM Bangalore</span>
+          <span>🏅 National Level Shooter</span>
+        </div>
+      </div>
+
+      <!-- Floating stat cards -->
+      <div class="hero-stats">
+        <div class="hstat hs1">
+          <span class="hstat-val">IIM</span>
+          <span class="hstat-lbl">Bangalore</span>
+        </div>
+        <div class="hstat hs2">
+          <span class="hstat-val">🏅</span>
+          <span class="hstat-lbl">National Athlete</span>
+        </div>
+        <div class="hstat hs3">
+          <span class="hstat-val">Zonal</span>
+          <span class="hstat-lbl">Representative</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ABOUT SECTION — CSS grid
+  ═══════════════════════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-label">01 — About</p>
+      <h2 class="section-heading">Who I <em>Am</em></h2>
+
+      <div class="about-layout">
+        <div class="about-main">
+          <p>
+            I am <strong>Vikrant Singh</strong>, a first-year student pursuing a
+            dual-degree — <strong>BBA in Digital Business &amp; Entrepreneurship
+            (DBE) from IIM Bangalore</strong> and <strong>BBA Honours from BITS
+            Pilani, Dubai Campus</strong>. I was elected as the
+            <strong>Zonal Representative of Eastern India</strong> at IIM Bangalore —
+            winning the student elections and earning the trust of my peers to represent
+            them at an institutional level.
+          </p>
+          <p>
+            I am deeply fascinated by <strong>Artificial Intelligence</strong>,
+            <strong>FinTech</strong>, <strong>robotics</strong>, and the intersection
+            of technology with business. As an early-stage learner, I bring an
+            insatiable curiosity and a growth mindset to every challenge I take on.
+          </p>
+          <p>
+            Away from academics, I am a <strong>national-level competitive
+            shooter</strong> — a multi-medallist whose sport has instilled
+            extraordinary discipline, composure under pressure, and a relentless
+            pursuit of precision that defines everything I do.
+          </p>
+
+          <div class="about-highlights">
+            <div class="ah-item">
+              <strong>IIM</strong><span>Bangalore</span>
+            </div>
+            <div class="ah-item">
+              <strong>BITS</strong><span>Pilani Dubai</span>
+            </div>
+            <div class="ah-item">
+              <strong>🗳️</strong><span>Elected Rep.</span>
+            </div>
+            <div class="ah-item">
+              <strong>🏅</strong><span>Multi-Medal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-sidebar">
+          <div class="info-card featured-card">
+            <div class="ic-accent"></div>
+            <div class="ic-body">
+              <span class="ic-icon">🗳️</span>
+              <h3>Zonal Representative — Eastern India</h3>
+              <p>Elected by peers as the Zonal Representative of Eastern India
+              at IIM Bangalore — demonstrating leadership, trust, and the
+              ability to inspire and unite a community.</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-accent"></div>
+            <div class="ic-body">
+              <span class="ic-icon">🎯</span>
+              <h3>Ambition</h3>
+              <p>To build and lead ventures at the crossroads of AI, finance, and
+              technology — creating impact through innovation and strategic thinking.</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-accent"></div>
+            <div class="ic-body">
+              <span class="ic-icon">📚</span>
+              <h3>Currently Exploring</h3>
+              <p>AI fundamentals, financial markets, digital business models,
+              robotics, and the entrepreneurial mindset for a fast-changing world.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SKILLS SECTION — dark, CSS grid
+  ═══════════════════════════════════════════════════════ -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <p class="section-label section-label-light">02 — Skills</p>
+      <h2 class="section-heading section-heading-light">What I <em>Bring</em></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-panel">
+          <div class="sp-top">
+            <span class="sp-icon">🧠</span>
+            <h3>Business &amp; Strategy</h3>
+          </div>
+          <div class="sp-tags">
+            <span class="stag">Business Management</span>
+            <span class="stag">Entrepreneurship</span>
+            <span class="stag">Digital Business</span>
+            <span class="stag">Strategic Thinking</span>
+            <span class="stag">Market Awareness</span>
+          </div>
+        </div>
+
+        <div class="skill-panel">
+          <div class="sp-top">
+            <span class="sp-icon">🤖</span>
+            <h3>Technology &amp; AI</h3>
+          </div>
+          <div class="sp-tags">
+            <span class="stag">Artificial Intelligence</span>
+            <span class="stag">FinTech</span>
+            <span class="stag">Robotics</span>
+            <span class="stag">New-Age Technology</span>
+            <span class="stag">Digital Transformation</span>
+          </div>
+        </div>
+
+        <div class="skill-panel">
+          <div class="sp-top">
+            <span class="sp-icon">🌐</span>
+            <h3>Digital &amp; Web</h3>
+          </div>
+          <div class="sp-tags">
+            <span class="stag">HTML5</span>
+            <span class="stag">CSS3</span>
+            <span class="stag">MS Office Suite</span>
+            <span class="stag">Google Workspace</span>
+            <span class="stag">Digital Literacy</span>
+          </div>
+        </div>
+
+        <div class="skill-panel">
+          <div class="sp-top">
+            <span class="sp-icon">🏆</span>
+            <h3>Leadership &amp; People</h3>
+          </div>
+          <div class="sp-tags">
+            <span class="stag">Student Leadership</span>
+            <span class="stag">Public Speaking</span>
+            <span class="stag">Event Hosting</span>
+            <span class="stag">Communication</span>
+            <span class="stag">Community Building</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       EDUCATION — timeline, positioning
+  ═══════════════════════════════════════════════════════ -->
+  <section id="education" class="section">
+    <div class="container">
+      <p class="section-label">03 — Education</p>
+      <h2 class="section-heading">Academic <em>Journey</em></h2>
+
+      <div class="timeline">
+
+        <article class="tl-entry">
+          <div class="tl-left">
+            <span class="tl-year">2025 – Present</span>
+          </div>
+          <div class="tl-spine">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge">Current · Primary Degree</div>
+            <h3>BBA in Digital Business &amp; Entrepreneurship (DBE)</h3>
+            <p class="tl-inst">IIM Bangalore — Indian Institute of Management</p>
+            <p class="tl-desc">
+              Enrolled in the prestigious BBA DBE programme at IIM Bangalore —
+              India's #1 management institution. Focused on digital business models,
+              entrepreneurship, AI applications in business, and startup ecosystems.
+              Also elected as the <strong>Zonal Representative of Eastern India</strong>
+              — winning student elections and representing Eastern Indian students at
+              the institutional level.
+            </p>
+            <div class="tl-chips">
+              <span>Digital Business</span><span>Entrepreneurship</span>
+              <span>AI in Business</span><span>Innovation</span><span>Student Leadership</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tl-entry">
+          <div class="tl-left">
+            <span class="tl-year">2025 – Present</span>
+          </div>
+          <div class="tl-spine">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge">Current · Dual Degree</div>
+            <h3>BBA Honours</h3>
+            <p class="tl-inst">BITS Pilani, Dubai Campus</p>
+            <p class="tl-desc">
+              Pursuing a Bachelor of Business Administration with Honours at one of
+              India's most reputed institutions. Based on-campus in Dubai, gaining a
+              global business perspective through management, finance, strategy, and
+              leadership studies while simultaneously completing the IIM Bangalore
+              degree online.
+            </p>
+            <div class="tl-chips">
+              <span>Management</span><span>Finance</span>
+              <span>Strategy</span><span>Economics</span><span>Global Business</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tl-entry">
+          <div class="tl-left">
+            <span class="tl-year">2022 – 2024</span>
+          </div>
+          <div class="tl-spine">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-card">
+            <h3>Higher Secondary Education (Class XII)</h3>
+            <p class="tl-inst">Modern English School, Guwahati, Assam</p>
+            <p class="tl-desc">
+              Completed Class XII in 2024 from Modern English School, Guwahati —
+              building a strong academic foundation while simultaneously pursuing
+              national-level competitive shooting, MUN participation, and
+              extracurricular leadership activities.
+            </p>
+          </div>
+        </article>
+
+        <article class="tl-entry">
+          <div class="tl-left">
+            <span class="tl-year">Until 2022</span>
+          </div>
+          <div class="tl-spine">
+            <div class="tl-node"></div>
+          </div>
+          <div class="tl-card">
+            <h3>Secondary Education (Class X)</h3>
+            <p class="tl-inst">Modern English School, Guwahati, Assam</p>
+            <p class="tl-desc">
+              Completed Class X from Modern English School, Guwahati with strong
+              academic performance — laying the groundwork for a high-achieving
+              academic and extracurricular career.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ACHIEVEMENTS — dark, CSS grid cards
+  ═══════════════════════════════════════════════════════ -->
+  <section id="achievements" class="section section-dark">
+    <div class="container">
+      <p class="section-label section-label-light">04 — Achievements &amp; Experience</p>
+      <h2 class="section-heading section-heading-light">What I've <em>Done</em></h2>
+
+      <div class="achieve-grid">
+
+        <article class="achieve-card achieve-hero">
+          <div class="ac-number">01</div>
+          <div class="ac-content">
+            <div class="ac-tags">
+              <span>IIM Bangalore</span><span>Student Elections</span><span>Eastern India</span>
+            </div>
+            <h3>Zonal Representative — Eastern India, IIM Bangalore</h3>
+            <p>
+              Won the student body elections at IIM Bangalore to serve as the
+              <strong>Zonal Representative of Eastern India</strong> — earning the
+              collective trust of the entire Eastern India student cohort. This role
+              involves representing Eastern Indian students in institutional decisions,
+              bridging communication between peers and administration, and championing
+              student welfare at one of the world's top management institutions.
+            </p>
+          </div>
+        </article>
+
+        <article class="achieve-card">
+          <div class="ac-number">02</div>
+          <div class="ac-content">
+            <div class="ac-tags"><span>National Level</span><span>Multi-Medallist</span></div>
+            <h3>National Level Competitive Shooter</h3>
+            <p>
+              A decorated national-level athlete in competitive shooting with multiple
+              medals. Years of rigorous training built extraordinary precision, focus,
+              and composure under pressure — qualities I carry into every endeavour.
+            </p>
+          </div>
+        </article>
+
+        <article class="achieve-card">
+          <div class="ac-number">03</div>
+          <div class="ac-content">
+            <div class="ac-tags"><span>Event Host</span><span>IIM Bangalore</span></div>
+            <h3>Host — NOVA 2025, IIM Bangalore</h3>
+            <p>
+              Official host for NOVA 2025 at IIM Bangalore — demonstrated confident
+              stage presence, sharp communication, and the ability to engage and
+              manage large, high-calibre audiences at a premier institution.
+            </p>
+          </div>
+        </article>
+
+        <article class="achieve-card">
+          <div class="ac-number">04</div>
+          <div class="ac-content">
+            <div class="ac-tags"><span>MUN</span><span>National Level</span></div>
+            <h3>Model United Nations — National Level</h3>
+            <p>
+              Participated in a national-level MUN conference — debating global policy,
+              representing a nation's position, and sharpening research, diplomacy,
+              negotiation, and public speaking capabilities.
+            </p>
+          </div>
+        </article>
+
+        <article class="achieve-card">
+          <div class="ac-number">05</div>
+          <div class="ac-content">
+            <div class="ac-tags"><span>Dual Degree</span><span>BITS + IIM</span></div>
+            <h3>Dual Degree — BITS Pilani Dubai &amp; IIM Bangalore</h3>
+            <p>
+              Simultaneously enrolled in two rigorous programmes at world-class
+              institutions — managing dual academic demands across BITS Pilani Dubai
+              and IIM Bangalore, reflecting exceptional ambition and organisational skill.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label">05 — Contact</p>
+      <h2 class="section-heading">Let's <em>Connect</em></h2>
+      <p class="contact-lead">
+        I'm always open to connecting with professionals, mentors, investors,
+        and fellow students passionate about AI, finance, entrepreneurship, and
+        new-age technology. Let's build something great together.
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:singh.vikrant0776@gmail.com" class="contact-tile">
+          <span class="ct-icon">✉️</span>
+          <span class="ct-label">Email</span>
+          <span class="ct-val">singh.vikrant0776@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/vikrant-singh-732097330" target="_blank" class="contact-tile">
+          <span class="ct-icon">💼</span>
+          <span class="ct-label">LinkedIn</span>
+          <span class="ct-val">linkedin.com/in/vikrant-singh-732097330</span>
+        </a>
+        <a href="https://github.com/singhvikrant0776-ui" target="_blank" class="contact-tile">
+          <span class="ct-icon">🐙</span>
+          <span class="ct-label">GitHub</span>
+          <span class="ct-val">github.com/singhvikrant0776-ui</span>
+        </a>
+        <div class="contact-tile">
+          <span class="ct-icon">📍</span>
+          <span class="ct-label">Currently Based</span>
+          <span class="ct-val">Dubai, UAE &nbsp;·&nbsp; From Guwahati, Assam</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">VS<span class="brand-dot">.</span></div>
+      <p><strong>Vikrant Singh</strong> &nbsp;·&nbsp; Roll No. 25121072</p>
+      <p class="footer-sub">BBA DBE · IIM Bangalore &nbsp;|&nbsp; BBA Honours · BITS Pilani Dubai</p>
+      <p class="footer-copy">Designed &amp; Built with HTML5 &amp; CSS3 · 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
